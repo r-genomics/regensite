@@ -5,7 +5,7 @@ title = "Научный Центр"
 description = "Официальный сайт нашего научного центра, посвященного исследованиям в области физики, информатики и биологии."
 
 # Базовый URL сайта
-base_url = "https://r-genomics.com"
+base_url = "https://r-genomics.github.io/regensite/"
 
 # Язык сайта
 default_language = "ru"
