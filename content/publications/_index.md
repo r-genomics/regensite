@@ -1,7 +1,3 @@
 +++
-title = "Публикации"
-sort_by = "date"
-template = "publication_list.html"
+title = "Posts"
 +++
-
-Все публикации перечислены ниже:
