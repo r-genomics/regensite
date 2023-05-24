@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://r-genomics.github.io/regensite/sitemap.xml
