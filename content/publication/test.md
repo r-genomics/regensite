@@ -1,5 +1,5 @@
 +++
-title = "L'élevage de chèvres, la carrière alternative de tous dévelopeurs'"
-slug = "élevage-chèvre-carrière-alternative"
+title = "TEST"
+slug = "test"
 +++
 This is my article.
