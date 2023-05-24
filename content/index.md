@@ -1,5 +1,4 @@
 +++
-title = "TEST Content page 5"
-slug = "test-content"
+title = "TEST Content page 6"
 +++
 test content page
