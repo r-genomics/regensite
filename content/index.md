@@ -1,5 +1,5 @@
 +++
-title = "TEST Content page 1"
+title = "TEST Content page 2"
 slug = "test-content"
 +++
 test content page
