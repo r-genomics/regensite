@@ -19,6 +19,9 @@ default_language = "ru"
   contact_email = "info@example.com"
   contact_phone = "+7 (123) 456-7890"
 
+taxonomies = [
+    {name = "tags", rss = true}
+]
 
 # Параметры меню
 [[menu.main]]
