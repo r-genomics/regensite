@@ -1,32 +1,50 @@
+# Название сайта
+title = "Научный Центр"
+
+# Описание сайта
+description = "Официальный сайт нашего научного центра, посвященного исследованиям в области физики, информатики и биологии."
+
+# Базовый URL сайта
 base_url = "https://r-genomics.com"
-title = "Regen"
 
-compile_sass = true
+# Язык сайта
+default_language = "ru"
 
-highlight_code = true
+# Тема сайта
+theme = "my-theme"
 
-build_search_index = false
-
-check_external_links = true
-
-taxonomies = [
-    {name = "tags", rss = true}
-]
-
+# Параметры, касающиеся содержания
 [extra]
-show_word_count = true
-show_reading_time = true
+  # Логотип сайта
+  logo = "/images/logo.png"
+  # Информация для контактов
+  contact_email = "info@example.com"
+  contact_phone = "+7 (123) 456-7890"
 
-date_format = "%a %b %e, %Y"
+# Секция таксономий
+[taxonomies]
+  research_areas = "research_areas"
+  resource_types = "resource_types"
 
-home = "home"
+# Параметры меню
+[[menu.main]]
+  identifier = "about"
+  name = "О нас"
+  url = "/about/"
 
-sam_menu = [
-    { text = "publication", link = "publication" },
-    { text = "scientist", link = "scientist" },
-]
+[[menu.main]]
+  identifier = "research"
+  name = "Публикации"
+  url = "/publication/"
 
-sam_bottom_menu = true
 
-[extra.sam_footer]
-text = "Some footer text."
+[[menu.main]]
+  identifier = "events"
+  name = "События"
+  url = "/conf/"
+
+
+[[menu.main]]
+  identifier = "team"
+  name = "Команда"
+  url = "/team/"
