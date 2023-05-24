@@ -1,3 +1,4 @@
 +++
-title = "Posts"
+title = "Публикации"
+sort_by = "date"
 +++
