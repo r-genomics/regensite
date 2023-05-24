@@ -1,6 +1,6 @@
 # On every push this script is executed
 on: push
-name: Build and deploy GEGEN
+name: Build and deploy REGEN
 jobs:
   build:
     runs-on: ubuntu-latest
