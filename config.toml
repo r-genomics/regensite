@@ -21,10 +21,6 @@ theme = "my-theme"
   contact_email = "info@example.com"
   contact_phone = "+7 (123) 456-7890"
 
-# Секция таксономий
-[taxonomies]
-  research_areas = "research_areas"
-  resource_types = "resource_types"
 
 # Параметры меню
 [[menu.main]]
