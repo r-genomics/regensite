@@ -22,8 +22,8 @@ date_format = "%a %b %e, %Y"
 home = "home"
 
 sam_menu = [
-    { text = "posts", link = "publication" },
-    { text = "about", link = "scientist" },
+    { text = "publication", link = "publication" },
+    { text = "scientist", link = "scientist" },
 ]
 
 sam_bottom_menu = true
