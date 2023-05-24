@@ -22,17 +22,24 @@
     <body>
         {% block body %}
             <div class="section" id="splash">
-                {% block title %}{{ config.title }}{% endblock title %}
-
-                {% block content %}
-                  <h1>{{ page.title }}</h1>
-                  <div>
-                    {{ page.content | safe }}
-                  </div>
-                
-                  <h2>Наши исследовательские области</h2>
-                  
-                {% endblock content %}
+                {% if config.extra.sam_menu %}
+                    {% for link in config.extra.sam_menu %}
+                        <div class="big-link">
+                            <a href="{{ link.link }}">
+                                {{ link.text }}
+                            </a>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    {% for current in section.subsections %}
+                        {% set current = get_section(path=current) %}
+                        <div class="big-link">
+                            <a href="{{ current.permalink }}">
+                                {{ macros::title_or_last(component=current) }}
+                            </a>
+                        </div>
+                    {% endfor %}
+                {% endif %}
             </div>
         {% endblock body %}
     </body>
